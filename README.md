@@ -56,6 +56,20 @@ Follow these steps to set up and run the Website Type Classifier API on your loc
     ```bash
     pip install -r requirements.txt
     ```
+## 📦 Dependencies Explained
+
+This project relies on the following Python libraries for its functionality, as listed in `requirements.txt`:
+
+* **`fastapi`**: A modern, fast (high-performance) web framework for building APIs with Python 3.8+ based on standard Python type hints. It's the core framework powering your API.
+* **`uvicorn`**: An ASGI (Asynchronous Server Gateway Interface) server, used to run FastAPI applications and handle incoming requests.
+* **`pydantic`**: Data validation and settings management using Python type hints. Used for defining your `Website` request body, ensuring valid input.
+* **`requests`**: An elegant and simple HTTP library for Python, used for making HTTP requests to fetch website content (i.e., sending GET requests to the URLs you want to classify).
+* **`beautifulsoup4` (often imported as `bs4`)**: A library for pulling data out of HTML and XML files. It's used to parse the HTML content fetched from websites, allowing you to extract text, titles, meta descriptions, and find specific HTML elements.
+* **`tldextract`**: Accurately separates a URL into its subdomain, domain, and top-level domain (TLD). This is crucial for your domain-based heuristics in `main.py`.
+* **`scikit-learn` (often imported as `sklearn`)**: A comprehensive machine learning library for Python, providing various classification, regression, and clustering algorithms. It's used in `train_model.py` for TF-IDF vectorization, Logistic Regression model training, and evaluation metrics.
+* **`joblib`**: A set of tools to provide lightweight pipelining in Python, primarily used for efficiently saving and loading Python objects to/from disk. In your project, it's essential for persisting your trained TF-IDF vectorizer and the ML classification model (`.pkl` files).
+* **`numpy`**: The fundamental package for numerical computing with Python. It's essential for handling arrays and performing mathematical operations, especially when dealing with the numerical outputs and probabilities from your machine learning model.
+* **`pandas`**: A powerful and flexible open-source data analysis and manipulation library. It's used in `train_model.py` for handling and processing your training datasets efficiently.
 
 ## 🧠 Train the Machine Learning Model
 
