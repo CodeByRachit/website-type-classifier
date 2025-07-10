@@ -1,3 +1,4 @@
+updated readme.
 # Website Type Classifier API 🌐
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
