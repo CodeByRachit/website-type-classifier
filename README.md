@@ -99,7 +99,7 @@ Once the ML model files are generated, you can start the FastAPI server.
     You should see output indicating that the server is running, typically on `http://127.0.0.1:8000`.
 
 
-##My Project Showcase
+## 🚀 My Project Showcase
 
 Here are some key screenshots from the project:
 
