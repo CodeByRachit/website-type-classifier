@@ -120,3 +120,24 @@ You can also interact with the API directly using `curl` or any HTTP client (lik
 curl -X POST "[http://127.0.0.1:8000/classify](http://127.0.0.1:8000/classify)" \
      -H "Content-Type: application/json" \
      -d '{"url": "[https://www.nytimes.com/](https://www.nytimes.com/)"}'
+
+
+
+
+
+
+
+
+
+My Project Showcase
+
+Here are some key screenshots from the project:
+
+![google mail sample ](https://github.com/user-attachments/assets/e28b2077-a681-4d5a-9961-806e54e9e92f)
+
+
+![news sample ](https://github.com/user-attachments/assets/73e65f2e-e28f-49fe-abd4-499c6cbf4cbc)
+
+
+![youtube sample ](https://github.com/user-attachments/assets/6b244ac2-b2e1-4f1f-b8fa-ffb8befd1d27)
+
