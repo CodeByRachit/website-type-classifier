@@ -20,7 +20,6 @@ print("--- Starting Model Training Script ---")
 # I've increased it to 3 per category for better robustness in splitting.
 training_data_raw = [
     # E-commerce (expanded)
-    {"url": "https://www.amazon.com/Best-Sellers/zgbs", "type": "e-commerce"},
     {"url": "https://www.ebay.com/b/electronics/bn7000259646", "type": "e-commerce"},
     {"url": "https://www.walmart.com/cp/electronics/3944", "type": "e-commerce"},
     {"url": "https://www.zappos.com/c/shoes", "type": "e-commerce"},
@@ -34,6 +33,7 @@ training_data_raw = [
     {"url": "https://www.homedepot.com/b/Appliances/N-5yc1vZc3ny", "type": "e-commerce"},
     {"url": "https://www.ikea.com/us/en/cat/furniture-fu003/", "type": "e-commerce"},
     {"url": "https://www.alibaba.com/products", "type": "e-commerce"},
+    {"url": "https://www.amazon.com/Best-Sellers/zgbs", "type": "e-commerce"},
     {"url": "https://www.aliexpress.com/category/100003070/electronics.html", "type": "e-commerce"},
 
     # News (expanded)
