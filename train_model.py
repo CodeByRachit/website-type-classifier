@@ -28,9 +28,9 @@ training_data_raw = [
     {"url": "https://www.shein.com/", "type": "e-commerce"},
     {"url": "https://www.temu.com/", "type": "e-commerce"},
     {"url": "https://www.etsy.com/c/home-and-living", "type": "e-commerce"}, # Often blocks, but try
-    {"url": "https://www.target.com/c/electronics/-/N-5xtg6", "type": "e-commerce"},
     {"url": "https://www.bestbuy.com/site/electronics/all-electronics/pcmcat242800050001.c", "type": "e-commerce"},
     {"url": "https://www.homedepot.com/b/Appliances/N-5yc1vZc3ny", "type": "e-commerce"},
+    {"url": "https://www.target.com/c/electronics/-/N-5xtg6", "type": "e-commerce"},
     {"url": "https://www.ikea.com/us/en/cat/furniture-fu003/", "type": "e-commerce"},
     {"url": "https://www.alibaba.com/products", "type": "e-commerce"},
     {"url": "https://www.amazon.com/Best-Sellers/zgbs", "type": "e-commerce"},
