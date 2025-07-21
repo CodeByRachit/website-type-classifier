@@ -65,10 +65,10 @@ training_data_raw = [
     {"url": "https://www.digitaltrends.com/computing/", "type": "blog"},
     {"url": "https://www.slashdot.org/", "type": "blog"},
     {"url": "https://www.boingboing.net/", "type": "blog"},
-    {"url": "https://www.howtogeek.com/", "type": "blog"},
     {"url": "https://www.lifehack.org/", "type": "blog"},
     {"url": "https://gizmodo.com/technology", "type": "blog"},
     {"url": "https://www.wired.com/tag/blogs/", "type": "blog"},
+    {"url": "https://www.howtogeek.com/", "type": "blog"},
     {"url": "https://www.mashable.com/tech", "type": "blog"},
 
     # Job board (expanded)
