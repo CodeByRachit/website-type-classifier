@@ -62,13 +62,13 @@ training_data_raw = [
     {"url": "https://www.engadget.com/topics/tech/", "type": "blog"},
     {"url": "https://lifehacker.com/tech", "type": "blog"},
     {"url": "https://www.cnet.com/tech/", "type": "blog"},
-    {"url": "https://www.digitaltrends.com/computing/", "type": "blog"},
     {"url": "https://www.slashdot.org/", "type": "blog"},
     {"url": "https://www.boingboing.net/", "type": "blog"},
     {"url": "https://www.lifehack.org/", "type": "blog"},
     {"url": "https://gizmodo.com/technology", "type": "blog"},
     {"url": "https://www.wired.com/tag/blogs/", "type": "blog"},
     {"url": "https://www.howtogeek.com/", "type": "blog"},
+    {"url": "https://www.digitaltrends.com/computing/", "type": "blog"},
     {"url": "https://www.mashable.com/tech", "type": "blog"},
 
     # Job board (expanded)
@@ -80,12 +80,12 @@ training_data_raw = [
     {"url": "https://www.seek.com.au/", "type": "job board"},
     {"url": "https://www.naukri.com/", "type": "job board"},
     {"url": "https://www.flexjobs.com/", "type": "job board"},
-    {"url": "https://www.upwork.com/freelance-jobs/", "type": "job board"},
     {"url": "https://www.weworkremotely.com/", "type": "job board"},
     {"url": "https://www.careerbuilder.com/jobs", "type": "job board"},
     {"url": "https://www.monster.com/jobs/", "type": "job board"},
     {"url": "https://www.indeed.com/jobs", "type": "job board"}, # Can be tricky to scrape
     {"url": "https://www.glassdoor.com/jobs/", "type": "job board"},
+    {"url": "https://www.upwork.com/freelance-jobs/", "type": "job board"},
     {"url": "https://www.ziprecruiter.com/jobs/", "type": "job board"},
 
     # Health (expanded)
