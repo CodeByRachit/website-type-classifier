@@ -117,9 +117,9 @@ training_data_raw = [
     {"url": "https://www.wikiprojectmed.org/", "type": "wiki"},
     {"url": "https://www.lyricwiki.org/", "type": "wiki"},
     {"url": "https://www.wikipedia.org/", "type": "wiki"},
-    {"url": "https://www.wikivoyage.org/", "type": "wiki"},
     {"url": "https://www.wikinews.org/", "type": "wiki"},
     {"url": "https://www.wikisource.org/", "type": "wiki"},
+    {"url": "https://www.wikivoyage.org/", "type": "wiki"},
     {"url": "https://www.wikispecies.org/", "type": "wiki"},
 
     # Forum (expanded)
