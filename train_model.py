@@ -234,12 +234,12 @@ training_data_raw = [
     {"url": "https://www.whatsapp.com/channels", "type": "social media"},
     {"url": "https://www.weibo.com/", "type": "social media"},
     {"url": "https://www.nextdoor.com/", "type": "social media"},
-    {"url": "https://www.vk.com/", "type": "social media"},
     {"url": "https://www.meetup.com/", "type": "social media"},
     {"url": "https://www.facebook.com/", "type": "social media"}, # Can be tricky to scrape for public content
     {"url": "https://www.twitter.com/", "type": "social media"}, # Now X.com, hard to scrape without API
     {"url": "https://www.instagram.com/", "type": "social media"}, # Very hard to scrape without API
     {"url": "https://www.pinterest.com/ideas/", "type": "social media"},
+    {"url": "https://www.vk.com/", "type": "social media"},
     {"url": "https://www.snapchat.com/", "type": "social media"},
 
     # Video streaming (expanded)
