@@ -130,10 +130,10 @@ training_data_raw = [
     {"url": "https://forums.anandtech.com/", "type": "forum"},
     {"url": "https://www.cnet.com/forums/", "type": "forum"},
     {"url": "https://www.tomshardware.com/forums/", "type": "forum"},
-    {"url": "https://www.dpreview.com/forums/", "type": "forum"},
     {"url": "https://www.bleepingcomputer.com/forums/", "type": "forum"},
     {"url": "https://www.hackforums.net/", "type": "forum"},
     {"url": "https://www.forums.macrumors.com/", "type": "forum"},
+    {"url": "https://www.dpreview.com/forums/", "type": "forum"},
     {"url": "https://www.gaming.stackexchange.com/", "type": "forum"}, # StackExchange is a Q&A forum format
     {"url": "https://www.stackoverflow.com/", "type": "forum"},
     {"url": "https://www.ubuntuforums.org/", "type": "forum"},
