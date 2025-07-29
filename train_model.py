@@ -96,13 +96,13 @@ training_data_raw = [
     {"url": "https://www.kidshealth.org/en/parents/medical/", "type": "health"},
     {"url": "https://www.clevelandclinic.org/health", "type": "health"},
     {"url": "https://www.drugs.com/condition/", "type": "health"},
-    {"url": "https://www.verywellhealth.com/conditions", "type": "health"},
     {"url": "https://www.hopkinsmedicine.org/health/", "type": "health"},
     {"url": "https://www.nimh.nih.gov/health/topics", "type": "health"},
     {"url": "https://www.mayoclinic.org/diseases-conditions", "type": "health"},
     {"url": "https://www.webmd.com/diseases/a-z-list", "type": "health"},
     {"url": "https://www.who.int/health-topics", "type": "health"},
     {"url": "https://www.medlineplus.gov/diseases.html", "type": "health"},
+    {"url": "https://www.verywellhealth.com/conditions", "type": "health"},
     {"url": "https://www.cdc.gov/diseasesconditions/index.html", "type": "health"},
 
     # Wiki (expanded)
