@@ -92,7 +92,6 @@ training_data_raw = [
     {"url": "https://www.nhs.uk/conditions/", "type": "health"},
     {"url": "https://www.everydayhealth.com/conditions/", "type": "health"},
     {"url": "https://www.health.harvard.edu/diseases-and-conditions", "type": "health"},
-    {"url": "https://www.medicinenet.com/diseases_and_conditions/article.htm", "type": "health"},
     {"url": "https://www.kidshealth.org/en/parents/medical/", "type": "health"},
     {"url": "https://www.clevelandclinic.org/health", "type": "health"},
     {"url": "https://www.drugs.com/condition/", "type": "health"},
@@ -103,6 +102,7 @@ training_data_raw = [
     {"url": "https://www.who.int/health-topics", "type": "health"},
     {"url": "https://www.medlineplus.gov/diseases.html", "type": "health"},
     {"url": "https://www.verywellhealth.com/conditions", "type": "health"},
+    {"url": "https://www.medicinenet.com/diseases_and_conditions/article.htm", "type": "health"},
     {"url": "https://www.cdc.gov/diseasesconditions/index.html", "type": "health"},
 
     # Wiki (expanded)
@@ -555,3 +555,4 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
