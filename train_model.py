@@ -37,23 +37,6 @@ training_data_raw = [
     {"url": "https://www.aliexpress.com/category/100003070/electronics.html", "type": "e-commerce"},
     {"url": "https://www.bestbuy.com/site/electronics/all-electronics/pcmcat242800050001.c", "type": "e-commerce"},
 
-    # News (expanded)
-    {"url": "https://www.nytimes.com/section/world", "type": "news"},
-    {"url": "https://www.bbc.com/news/world", "type": "news"},
-    {"url": "https://www.reuters.com/world", "type": "news"},
-    {"url": "https://www.cnn.com/world", "type": "news"},
-    {"url": "https://www.foxnews.com/world", "type": "news"},
-    {"url": "https://www.washingtonpost.com/world/", "type": "news"},
-    {"url": "https://www.apnews.com/hub/world-news", "type": "news"},
-    {"url": "https://www.bloomberg.com/news", "type": "news"},
-    {"url": "https://www.wsj.com/news/world", "type": "news"},
-    {"url": "https://www.usatoday.com/news/world/", "type": "news"},
-    {"url": "https://www.cbsnews.com/world/", "type": "news"},
-    {"url": "https://www.abcnews.go.com/International/", "type": "news"},
-    {"url": "https://www.nbcnews.com/world", "type": "news"},
-    {"url": "https://www.theguardian.com/world", "type": "news"},
-    {"url": "https://www.independent.co.uk/world", "type": "news"},
-
     # Blog (expanded)
     {"url": "https://www.techcrunch.com/startups/", "type": "blog"},
     {"url": "https://www.huffpost.com/entry/blog", "type": "blog"},
@@ -88,6 +71,25 @@ training_data_raw = [
     {"url": "https://www.upwork.com/freelance-jobs/", "type": "job board"},
     {"url": "https://www.ziprecruiter.com/jobs/", "type": "job board"},
 
+
+    # News (expanded)
+    {"url": "https://www.nytimes.com/section/world", "type": "news"},
+    {"url": "https://www.bbc.com/news/world", "type": "news"},
+    {"url": "https://www.reuters.com/world", "type": "news"},
+    {"url": "https://www.cnn.com/world", "type": "news"},
+    {"url": "https://www.foxnews.com/world", "type": "news"},
+    {"url": "https://www.washingtonpost.com/world/", "type": "news"},
+    {"url": "https://www.apnews.com/hub/world-news", "type": "news"},
+    {"url": "https://www.bloomberg.com/news", "type": "news"},
+    {"url": "https://www.wsj.com/news/world", "type": "news"},
+    {"url": "https://www.usatoday.com/news/world/", "type": "news"},
+    {"url": "https://www.cbsnews.com/world/", "type": "news"},
+    {"url": "https://www.abcnews.go.com/International/", "type": "news"},
+    {"url": "https://www.nbcnews.com/world", "type": "news"},
+    {"url": "https://www.theguardian.com/world", "type": "news"},
+    {"url": "https://www.independent.co.uk/world", "type": "news"},
+
+    
     # Health (expanded)
     {"url": "https://www.nhs.uk/conditions/", "type": "health"},
     {"url": "https://www.everydayhealth.com/conditions/", "type": "health"},
@@ -555,4 +557,5 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
 
