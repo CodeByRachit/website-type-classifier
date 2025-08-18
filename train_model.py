@@ -48,10 +48,10 @@ training_data_raw = [
     {"url": "https://www.medium.com/topic/technology", "type": "blog"},
     {"url": "https://www.theverge.com/tech", "type": "blog"},
     {"url": "https://www.engadget.com/topics/tech/", "type": "blog"},
-    {"url": "https://lifehacker.com/tech", "type": "blog"},
     {"url": "https://www.cnet.com/tech/", "type": "blog"},
     {"url": "https://www.howtogeek.com/", "type": "blog"},
     {"url": "https://www.digitaltrends.com/computing/", "type": "blog"},
+    {"url": "https://lifehacker.com/tech", "type": "blog"},
     {"url": "https://www.mashable.com/tech", "type": "blog"},
 
     # Job board (expanded)
@@ -557,5 +557,6 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
 
 
