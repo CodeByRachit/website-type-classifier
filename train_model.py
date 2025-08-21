@@ -77,15 +77,15 @@ training_data_raw = [
     {"url": "https://www.bbc.com/news/world", "type": "news"},
     {"url": "https://www.reuters.com/world", "type": "news"},
     {"url": "https://www.cnn.com/world", "type": "news"},
-    {"url": "https://www.foxnews.com/world", "type": "news"},
-    {"url": "https://www.washingtonpost.com/world/", "type": "news"},
-    {"url": "https://www.apnews.com/hub/world-news", "type": "news"},
     {"url": "https://www.bloomberg.com/news", "type": "news"},
     {"url": "https://www.wsj.com/news/world", "type": "news"},
     {"url": "https://www.usatoday.com/news/world/", "type": "news"},
     {"url": "https://www.cbsnews.com/world/", "type": "news"},
     {"url": "https://www.nbcnews.com/world", "type": "news"},
     {"url": "https://www.theguardian.com/world", "type": "news"},
+    {"url": "https://www.foxnews.com/world", "type": "news"},
+    {"url": "https://www.washingtonpost.com/world/", "type": "news"},
+    {"url": "https://www.apnews.com/hub/world-news", "type": "news"},
     {"url": "https://www.abcnews.go.com/International/", "type": "news"},
     {"url": "https://www.independent.co.uk/world", "type": "news"},
 
@@ -557,6 +557,7 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
 
 
 
