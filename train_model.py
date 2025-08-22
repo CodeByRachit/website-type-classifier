@@ -315,9 +315,6 @@ training_data_raw = [
     # Sports (expanded)
     {"url": "https://www.bleacherreport.com/nfl", "type": "sports"},
     {"url": "https://www.si.com/nba", "type": "sports"},
-    {"url": "https://www.sbnation.com/soccer", "type": "sports"},
-    {"url": "https://www.mlb.com/news", "type": "sports"},
-    {"url": "https://www.nhl.com/news", "type": "sports"},
     {"url": "https://www.yardbarker.com/", "type": "sports"},
     {"url": "https://www.espncricinfo.com/", "type": "sports"},
     {"url": "https://www.cbssports.com/soccer/", "type": "sports"},
@@ -327,6 +324,9 @@ training_data_raw = [
     {"url": "https://www.nba.com/", "type": "sports"},
     {"url": "https://www.fifa.com/", "type": "sports"},
     {"url": "https://www.uefa.com/", "type": "sports"},
+    {"url": "https://www.sbnation.com/soccer", "type": "sports"},
+    {"url": "https://www.mlb.com/news", "type": "sports"},
+    {"url": "https://www.nhl.com/news", "type": "sports"},
     {"url": "https://www.olympics.com/", "type": "sports"},
 
     # Portfolio (expanded)
@@ -557,6 +557,7 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
 
 
 
