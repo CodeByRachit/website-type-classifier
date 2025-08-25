@@ -129,16 +129,16 @@ training_data_raw = [
     {"url": "https://www.warriorforum.com/", "type": "forum"},
     {"url": "https://www.webmasterworld.com/", "type": "forum"},
     {"url": "https://www.sitepoint.com/community/", "type": "forum"},
-    {"url": "https://forums.anandtech.com/", "type": "forum"},
-    {"url": "https://www.cnet.com/forums/", "type": "forum"},
-    {"url": "https://www.tomshardware.com/forums/", "type": "forum"},
-    {"url": "https://www.bleepingcomputer.com/forums/", "type": "forum"},
     {"url": "https://www.hackforums.net/", "type": "forum"},
     {"url": "https://www.forums.macrumors.com/", "type": "forum"},
     {"url": "https://www.dpreview.com/forums/", "type": "forum"},
     {"url": "https://www.gaming.stackexchange.com/", "type": "forum"}, # StackExchange is a Q&A forum format
     {"url": "https://www.stackoverflow.com/", "type": "forum"},
     {"url": "https://www.ubuntuforums.org/", "type": "forum"},
+    {"url": "https://forums.anandtech.com/", "type": "forum"},
+    {"url": "https://www.cnet.com/forums/", "type": "forum"},
+    {"url": "https://www.tomshardware.com/forums/", "type": "forum"},
+    {"url": "https://www.bleepingcomputer.com/forums/", "type": "forum"},
     {"url": "https://www.rpg.net/forums/", "type": "forum"},
 
     # Travel (expanded)
@@ -557,6 +557,7 @@ else:
         print(f"Error: The following classes have fewer than 2 samples after scraping/filtering: {problematic_classes}. Cannot perform stratified split.")
         print("Please ensure each website type has at least two robust URLs in your training_data_raw.")
     print("--- Training Script Failed ---")
+
 
 
 
